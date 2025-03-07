@@ -1,0 +1,205 @@
+{
+    "anatomy_anatomy": {
+        "nodes": [
+            "anatomy",
+            "anatomy"
+        ],
+        "edgeInfo": "includes"
+    },
+    "bioprocess_bioprocess": {
+        "nodes": [
+            "biological_process",
+            "biological_process"
+        ],
+        "edgeInfo": "includes"
+    },
+    "cellcomp_cellcomp": {
+        "nodes": [
+            "cellular_component",
+            "cellular_component"
+        ],
+        "edgeInfo": "includes"
+    },
+    "disease_disease": {
+        "nodes": [
+            "disease",
+            "disease"
+        ],
+        "edgeInfo": "includes"
+    },
+    "disease_phenotype": {
+        "nodes": [
+            "disease",
+            "effect/phenotype"
+        ],
+        "edgeInfo": "side effect"
+    },
+    "contraindication": {
+        "nodes": [
+            "drug",
+            "disease"
+        ],
+        "edgeInfo": "contraindication"
+    },
+    "drug_drug": {
+        "nodes": [
+            "drug",
+            "drug"
+        ],
+        "edgeInfo": "synergistic interaction"
+    },
+    "drug_targets": {
+        "nodes": [
+            "drug",
+            "gene/protein"
+        ],
+        "edgeInfo": "drug targets"
+    },
+    "indication": {
+        "nodes": [
+            "drug",
+            "disease"
+        ],
+        "edgeInfo": "indication"
+    },
+    "off-label use": {
+        "nodes": [
+            "drug",
+            "disease"
+        ],
+        "edgeInfo": "off-label use"
+    },
+    "side_effect": {
+        "nodes": [
+            "drug",
+            "effect/phenotype"
+        ],
+        "edgeInfo": "side effect"
+    },
+    "phenotype_phenotype": {
+        "nodes": [
+            "effect/phenotype",
+            "effect/phenotype"
+        ],
+        "edgeInfo": "associated with"
+    },
+    "exposure_bioprocess": {
+        "nodes": [
+            "biological_process",
+            "exposure"
+        ],
+        "edgeInfo": "exposure_bioprocess"
+    },
+    "exposure_cellcomp": {
+        "nodes": [
+            "cellular_component",
+            "exposure"
+        ],
+        "edgeInfo": "exposure_bioprocess"
+    },
+    "exposure_disease": {
+        "nodes": [
+            "exposure",
+            "disease"
+        ],
+        "edgeInfo": "linked to"
+    },
+    "exposure_exposure": {
+        "nodes": [
+            "exposure",
+            "exposure"
+        ],
+        "edgeInfo": ""
+    },
+    "exposure_molfunc": {
+        "nodes": [
+            "molecular_function",
+            "molecular_function"
+        ],
+        "edgeInfo": ""
+    },
+    "exposure_protein": {
+        "nodes": [
+            "exposure",
+            "gene/protein"
+        ],
+        "edgeInfo": ""
+    },
+    "anatomy_protein_absent": {
+        "nodes": [
+            "anatomy",
+            "gene/protein"
+        ],
+        "edgeInfo": "expression absent"
+    },
+    "anatomy_protein_present": {
+        "nodes": [
+            "anatomy",
+            "gene/protein"
+        ],
+        "edgeInfo": "expression present"
+    },
+    "bioprocess_protein": {
+        "nodes": [
+            "biological_process",
+            "gene/protein"
+        ],
+        "edgeInfo": ""
+    },
+    "cellcomp_protein": {
+        "nodes": [
+            "cellular_component",
+            "gene/protein"
+        ],
+        "edgeInfo": "interact with"
+    },
+    "disease_protein": {
+        "nodes": [
+            "disease",
+            "gene/protein"
+        ],
+        "edgeInfo": ""
+    },
+    "molfunc_protein": {
+        "nodes": [
+            "molecular_function",
+            "gene/protein"
+        ],
+        "edgeInfo": ""
+    },
+    "pathway_protein": {
+        "nodes": [
+            "pathway",
+            "gene/protein"
+        ],
+        "edgeInfo": ""
+    },
+    "phenotype_protein": {
+        "nodes": [
+            "effect/phenotype",
+            "gene/protein"
+        ],
+        "edgeInfo": "associated with"
+    },
+    "protein_protein": {
+        "nodes": [
+            "gene/protein",
+            "gene/protein"
+        ],
+        "edgeInfo": "PPI"
+    },
+    "molfunc_molfunc": {
+        "nodes": [
+            "molecular_function",
+            "molecular_function"
+        ],
+        "edgeInfo": "includes"
+    },
+    "pathway_pathway": {
+        "nodes": [
+            "pathway",
+            "pathway"
+        ],
+        "edgeInfo": ""
+    }
+}

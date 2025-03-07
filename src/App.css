@@ -1,0 +1,40 @@
+:root {
+  --header-height: 64px;
+  --footer-height: 60px;
+}
+
+
+
+header.header{
+  height: var(--header-height);
+  color: white;
+  font-size: x-large;
+}
+
+footer.footer{
+  height: var(--footer-height);
+}
+
+main.main{
+  height: calc( 100vh - var(--header-height) - var(--footer-height));
+}
+
+svg.main{
+  height: 100%;
+  width: 100%;
+}
+
+g.wholeGraph{
+  transform-origin: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.about-modal a {
+  color: black;
+  text-decoration: underline;
+  background-color: transparent;
+}
+

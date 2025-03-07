@@ -1,0 +1,19 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+!.elasticbeanstalk/*.config.yml
+!.elasticbeanstalk/config.yml
+__pycache__/
+build/
+data/
+txgnn_data/
+txgnn_data_v2/
+colab_delivery/*
+TxGNNExplorer/
+TxGNNExplorer_v2/
+!colab_delivery/*.py
+node_emb_disease_sim/
+*.pem
+mykeys.py
